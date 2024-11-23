@@ -7,17 +7,18 @@
 
 非常适合作为博客页脚的可爱装饰哦！🎈
 
-☁️预览站点：[https://icp.yuncheng.fun/](https://icp.yuncheng.fun/)（域名备案暂时关闭）
+☁️预览站点：[https://icp.yuncheng.fun/](https://icp.yuncheng.fun/)
 
 🚀已部署的其他站点：http://icp.yilx.net/ 
 
+
 > 🎉这个系统是利用课余时间开发的，还不错叭？
 
-> 开源版的功能并不完整，如果需要完整版，可以联系云团子获取～（点个Star享受骨折价！）
+开源版的功能并不完整，如果需要完整版，可以联系我们获取～（点个Star享受骨折价！）
 
-> 风屿岛与云团子同时维护此项目，由于云团子学业繁重，工作日将由风屿岛代替云团子进行维护、技术支持
+风屿岛与云团子同时维护此项目，由于云团子学业繁重，工作日将由风屿岛代替云团子进行维护、技术支持
 
-> 开源版会不定期维护更新，加入交流Q群：[云团子 站长2群](https://qm.qq.com/q/zWdw1HqaOY)
+开源版会不定期维护更新，加入交流Q群：[云团子 站长2群](https://qm.qq.com/q/zWdw1HqaOY)
 ## 备案信息界面
 (背景是随机二次元图片哦～，感谢Klcdm的加速服务) 🎨
 ![QQ20241026-225813](https://github.com/user-attachments/assets/d93c0488-48bb-46d7-8160-5ef769ca8de2)
@@ -41,10 +42,10 @@
 - Nginx 或 Apache
 - Linux 或 Windows 服务器
 ### 经过测试的环境
-- PHP = 8.1.30
-- MySQL = 8.0.24
-- Nginx
-- Linux Centos
+- PHP = 8.1.30（建议8.1及以上）
+- MySQL = 8.0.24（似乎别太老都行）
+- Nginx（似乎别太老都行）
+- Linux Centos（似乎别太老都行）
 ### 部署方式
 1. 下载源码
 2. 访问http(s)://domain或ip/install.php安装
