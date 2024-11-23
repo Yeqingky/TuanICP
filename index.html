@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>温馨提醒</title>
+    <style>
+        body {
+            font-family: '微软雅黑', Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 500px;
+            margin: 0 auto;
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: translateY(-5px);
+        }
+        .title {
+            font-size: 28px;
+            color: #5a5a5a;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        .message {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        .link {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            position: relative;
+            padding-bottom: 2px;
+        }
+        .link:hover {
+            text-decoration: none;
+            color: #0056b3;
+        }
+        .link::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #007bff;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        .link:hover::after {
+            transform: scaleX(1);
+        }
+        .price {
+            color: #e74c3c;
+            font-size: 24px;
+            font-weight: bold;
+			display: inline;
+        }
+        .discount {
+            font-size: 14px;
+            color: #777;
+            display: block;
+            margin-top: -10px;
+			display: inline;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #999;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 10px 0;
+        }
+        .footer hr {
+            width: 50%;
+            margin: 10px auto;
+        }
+        .statement {
+            font-size: 14px;
+            color: #aaa;
+            margin-top: 20px;
+            line-height: 1.4;
+        }
+        .statement h3 {
+            font-size: 16px;
+            color: #aaa;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var priceElement = document.querySelector('.price');
+            var discountElement = document.querySelector('.discount');
+            var targetPrice = 68;
+            var currentPrice = 0;
+            var interval = 400; // 总时长为0.4秒
+            var step = targetPrice / (interval / 15); // 每次增加的金额
+
+            var intervalId = setInterval(function() {
+                currentPrice += step;
+                if (currentPrice >= targetPrice) {
+                    clearInterval(intervalId);
+                    currentPrice = targetPrice;
+                    discountElement.style.display = 'inline'; // 显示折扣信息
+                }
+                priceElement.textContent = Math.floor(currentPrice).toString();
+            }, 25); // 每n毫秒更新一次价格
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="title">哎，小伙伴，咱可以好好看看readme.php吗？</div>
+        <div class="message">
+            <p>开源版源码在<a href="https://qm.qq.com/q/Uzmtgb9PcA" class="link">交流群</a>里找群主下载</p>
+            <p>完整版定价：<span class="price">68元</span><span class="discount">（折前价）</span>，</p>
+			<p>点个star打骨折！<span class="discount">（六折，折后40.8元）</span></p>
+            <a href="https://qm.qq.com/q/Uzmtgb9PcA" class="link">点我加群</a>
+            <div class="statement">
+                <h3>项目声明</h3>
+                <p>严禁倒卖或未经授权进行二次开发后倒卖源码。</p>
+                <p>包括但不限于访问、参与开发、部署、下载、转发、Star等方式关联到本项目的，即表示您认同“台湾省是中国领土不可分割的一部分”这一立场！</p>
+            </div>
+        </div>
+        <div class="footer"><hr>The end<hr></div>
+    </div>
+</body>
+</html>
