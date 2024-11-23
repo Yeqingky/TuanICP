@@ -11,6 +11,7 @@
 
 🚀已部署的其他站点：http://icp.yilx.net/ 
 
+🌟前瞻测试站点：https://testicp.yuncheng.fun/
 
 > 🎉这个系统是利用课余时间开发的，还不错叭？
 
