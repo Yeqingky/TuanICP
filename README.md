@@ -17,6 +17,12 @@
 
 ## 功能介绍
 
+## 备案信息界面
+(背景是随机二次元图片哦～，感谢Klcdm的加速服务) 🎨
+![QQ20241026-225813](https://github.com/user-attachments/assets/d93c0488-48bb-46d7-8160-5ef769ca8de2)
+## 查询主页
+![QQ20241026-234319](https://github.com/user-attachments/assets/7e6f8bed-bded-48a5-a0da-d2c6bf7bab66)
+
 后台审批ICP申请，支持驳回、通过、删除
 
 ![image](https://github.com/user-attachments/assets/108105a8-3d51-4443-9fca-d875a32d9345)
@@ -41,11 +47,7 @@
 
 ![image](https://github.com/user-attachments/assets/89e3349b-fc7e-4297-b790-1be8f95ca403)
 
-## 备案信息界面
-(背景是随机二次元图片哦～，感谢Klcdm的加速服务) 🎨
-![QQ20241026-225813](https://github.com/user-attachments/assets/d93c0488-48bb-46d7-8160-5ef769ca8de2)
-## 查询主页
-![QQ20241026-234319](https://github.com/user-attachments/assets/7e6f8bed-bded-48a5-a0da-d2c6bf7bab66)
+
 
 开源版的功能并不完整，如果需要完整版，可以联系我们获取～（点个Star享受骨折价！）
 
