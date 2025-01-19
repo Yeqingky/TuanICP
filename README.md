@@ -9,7 +9,6 @@
 
 ☁️预览站点：[https://icp.yuncheng.fun/](https://icp.yuncheng.fun/)
 
-🚀已部署的其他站点：http://icp.yilx.net/ 
 
 🌟前瞻测试站点：https://testicp.yuncheng.fun/
 
