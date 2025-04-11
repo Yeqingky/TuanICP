@@ -75,6 +75,8 @@ biliwind非法攻击、入侵生产环境，影响用户授权验证，涉案虚
 
 其假冒TuanICP的名称建立TuanICP—NEXT仓库，将TuanICP1.0的前端代码修改变量名后声称完全是自己开发的，并且在readme中没有标注原作者。
 
+https://github.com/skyhhjmk/TuanICP-NEXT/
+
 该开发者QQ：1827348941，谨防被骗！
 
 > 这里是唯一开发者—团子QQ：937319686
