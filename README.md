@@ -72,7 +72,7 @@
 
 | 项目名称 | 作者 | 版本 | 描述 | 仓库地址 |
 |---------|------|------|------|----------|
-| 雾ICP备 📧 | 云团子，SCFC | v1.0.0 | 💖开源、🩷UI可爱、🩵界面美观 | [前往仓库](https://github.com/wugov/WuICP) 🚗 |
+| 雾ICP备 📧 | 云团子，筱序二十 | v1.0.0 | 💖开源、🩷UI可爱、🩵界面美观 | [前往仓库](https://github.com/wugov/WuICP) 🚗 |
 | 维ICP备 ✉️ | 云团子，小维 | v1.0.0 | 维ICP备案系统是一款💖开源、🩵界面美观的第三方icp虚拟备案系统 | [前往仓库](https://github.com/xiaowei-wei/-ICP-Virtual-ICP-Filing-System) 🚗 |
 
 # 鸣谢
